@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+	<header>Recycling Quiz</header>
+ 
+ <div class="row">
+	<h2>Which item is recyclable?</h2>
+	<input type="radio" name="items" id="food"> 
+  <label>Food Remnants</label><br>
+  <input type="radio" name="items" id="cardboard"> 
+  <label>Cardboard</label><br>
+  <input type="radio" name="items" id="styrofoam"> 
+  <label>Styrofoam</label><br>
+
+  <h2>What are the three R's?</h2>
+	<input type="radio" name="Rs" id="repair"> 
+  <label>Repair, Recycle, Replace</label><br>
+  <input type="radio" name="Rs" id="replace"> 
+  <label>Replace, Recharge, Repeat</label><br>
+  <input type="radio" name="Rs" id="reduce"> 
+  <label>Reduce, Reuse, Recycle</label><br>
+
+  <button onclick="getResults()">Submit</button>
+
+ 
+		<p id="output"> </p>
+	</div>
+
+ 
+
+    <script src="script.js"></script>
+  </body>
+</html>
